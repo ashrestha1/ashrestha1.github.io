@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Aayush Shrestha | Portfolio</title>
+
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <meta name="viewport" content="width=device-width">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Aayush Shrestha</h1>
+      <img class="img-me" src="IMG/profile.jpg" alt="my pic">
+    </header>
+    <section>
+
+      
+<nav>
+  <ul id="ul_index">
+    <li><a href="index.html">Project 1</a></li>
+    <li class="active"><a href="#">Project 2</a></li>
+  </ul>
+</nav>
+ 
+
+      <h2 id="title">Designing Human-Robot Interaction with Botkit chatbot</h2>
+
+      <p>Team members:</p>
+      <ul>
+        <li><a href="https://endrave.github.io/"
+            class="commit-link">Endrave Wong</a></li>
+        <li><a href="https://bmhcasino.github.io/"
+            class="commit-link">Benedict Casino</a></li>
+        <li><a href="https://wesley436.github.io/comp4461project1/index.html"
+            class="commit-link">Wesley Hui</a></li>
+        <li><a href="https://ywchanaq.github.io/"
+            class="commit-link">Anson Chan Yin Wan</a></li>
+
+      </ul>
+
+      <hr>
+      <div id="overview">
+        <p><b>This project</b> aims to develop a system where users are able to shop much more efficently 
+          in local markets through incorporating Botkit chatbot. <br> <br>
+          <b>The goal</b> is to apply the concept of design process introduced in the lectures and gain hands-on
+          experience through this project. We aim to resolve the needs stressed by disabled, foreign and senior citizens.
+        </p>
+      </div>
+      <hr>
+
+
+
+      <h2>Our learning and execution process</h2>
+
+      <h2>Empathize</h2>
+
+
+
+      <h3>Brainstorm</h3>
+      <p>Our brainstorming resulted in grocery shopping in Hong Kong wet markets. This is because many of the 
+        Hong Kong population rely on these markets for food as they are cheaper, reliable and very popular. As 
+        some of us in the group are not familiar with Cantonese or mandarin, we have found it tedious to navigate through 
+        the dense market filled with various satisfactory items. Moreover, we realised that the prominent supermarkets
+         such as Wellcome and ParknShop are very organised concerning layouts due to being well-funded. Therefore we concluded 
+         that the Wet markets, despite being cheap and practical for everyone in Hong Kong, is exhausting to shop thanks to
+          the huge language barrier and along with the not so friendly directions illustrated by signs and paper maps.
+
+      </p>
+      <img src="IMG/mindmap.png" alt="my pic">
+
+      <hr>
+      <h2>Interpret</h2>
+
+
+      <h3>Observation</h3>
+      <p> We went to actual wet markets to get hands-on experience when walking around the complicated maze-like design. 
+       <br><br>
+
+       We took picture of different markets to study the different architecture that complicate many foreign, hearing-impaired and old citizens. 
+       <table id="tableDesign">
+        <tr>
+          <th class="locationHeader">Location</th>
+          <th class="observationHeader">Observation</th>
+          <th class="imageHeader">Image</th>
+        </tr>
+        <tr>
+          <td>Super market</td>
+          <td>-The map is separated into multiple sector by catorigeries <br/ > 
+      -Only give a general idea of where the item is located but not precise position<br/ >
+      -At the correct area there are many sub columns <br/ >
+      -Finding a specific item is hard with that map.
+      </td>
+        <td><img src="IMG/pasted image 0.png"> <img src="IMG/pasted image 0-2.png"></td>
+        </tr>
+        <tr>
+          <td>Wet market</td>
+          <td>-The indicator have no graphical presentation on the floor plan layout<br/ >
+      -Multiple stores are selling same type of goods, but in different location, customer need to spent long time to explore the whole market and compare the quality and price
+      </td>
+      <td><img src="IMG/pasted image 0-3.png"> <img src="IMG/unnamed-2.png"></td>
+    </tr>
+        <tr>
+          <td>Night market</td>
+          <td>-No real map or layout to guide customers<br/ >
+      -Stores are clustered and other customers may block the user in finding what they want.<br/ >
+      -Each store does not have a banner or title meaning customers have to look at the items specifically
+      </td>
+      <td><img src="IMG/unnamed-3.png"> <img src="IMG/pasted image 0-4.png"></td>
+        </tr>
+       
+      </table>
+      
+  
+      <h3>POV</h3>
+ <table>
+        <tr>
+          <th class ="userHeader">User</th>
+          <th class ="needsHeader">Needs/Problems</th>
+          <th class ="insightHeader">Insights</th>
+        </tr>
+        <tr>
+          <td>Customer: <br />
+            -Seldom go to market <br />
+            -Shy <br />
+            -Never cook before <br />
+            </td>
+          <td>
+            -Do not know where the required item is located and waste a long time to try finding it <br />
+            -Do not even know the exact name of the item they want <br />
+            -Do not even know what they need for perform certain task(e.g. cooking) <br />
+            -Do not prefer social interaction <br />
+            -Not sure if the store have the required item in stock <br />
+
+      </td>
+
+        <td>
+          -Path finder that gives the shortest path <br />
+          -Give suggestion to identify what the user want exactly <br />
+          -Provided with a dish name, give a list of all the required ingredients  <br />
+          -Talk to chatbot which is no one <br />
+          -Price comparsion 
+          </td>
+        </tr>
+        <tr>
+          <td>Shopkeeper <br />
+           -Willing to maximize profit <br />
+           -May not be familiar with another language
+            </td>
+          <td> 
+           -Need to guild the customer to correct location without leaving the post<br />
+           -Need to verbally explain the route <br />
+           -Promote the goods to customer as much as possible <br />
+           -Cannot communicate with foreigner
+
+      </td>
+          <td>
+           -Using graphic to illustrate, instead of using verbal communication <br />
+           -Show promotion, discount as suggestion to user
+            
+</td>
+        </tr>
+        
+       
+      </table>
+
+      </p>
+
+      <h2>Ideate</h2>
+      <p>We looked at existing platforms such as Google Maps, and concluded there is a gap for providing locations
+        of specific stalls in local markets. The local wet or night markets are very popular among Hong Kong citizens due 
+        to the reliability and cheap prices. Moreover there is a need for users to compare shopping items all in one app instead
+        of having to switch through different specific super market brand application.
+       </p>
+      
+        <h3> Google Maps </h3>
+        <blockquote> <p> Does not aid in finding stalls in the dense local markets found in Hong Kong.
+        </p></blockquote>
+
+        <h3> Super Market brand Apps </h3>
+        <blockquote> <p> Useful for the supermaket the app is built for however is tedious to compare prices between different
+          markets since you would have to shuffle through all the applications. 
+        </p></blockquote>
+
+  
+
+     
+        <hr>
+        <h2>Verify</h2>
+
+        <h3>StoryBoarding</h3>
+
+        <p>We used storyboards to illustrate the interaction that would occur between the user and the app.</p>
+
+        <ul>
+          <li> <h4>Direction feature</h4></li>
+          <img src="IMG/HCI_Comic_2_001.png"  alt="my pic">
+          <li> <h4>Comparison feature</h4></li>
+          <img src="IMG/HCI_Comic_2_002.png"  alt="my pic">
+        </ul>
+
+   
+      <hr>
+
+      <h2>Prototype</h2>
+
+      <iframe src="https://drive.google.com/file/d/1XvKcf1rhT2PIleFNxjK4FtSbdQg69VCs/preview" width="640" height="480"></iframe>
+
+
+
+
+      
+
+      <hr>
+
+      <h2>Contribuition</h2>
+
+      <h4>For the development of this application, I was responsible for coding the direction feature. 
+        I constructed two approaches for generating the map that will help guide users to the designated stall or 
+        provide users with the best route. </h4>
+
+      <div id="overview">
+        <p>
+ 
+
+          For the first approach, I implemented an algorithim where the list of items wanted is observed and depending on 
+          the items listed, a map will be generated with the fastest route to collect all the items in one go. 
+
+          <img src="IMG/aiDemo.jpg">
+
+        </div>
+      </p>
+
+
+      <div id="overview">
+        <p>
+          For the second approach, the user is provided with a map which features stalls that users can click on. The map will be reloaded with
+          arrows drawn indicating the fastest route to the specified stall. 
+
+          I used image mapping to ensure that users can interact with the map.
+
+          <img src= IMG/map.png>
+
+          <img src="IMG/map_drawn.png">
+
+          <img src="IMG/map_drawn2.png">
+
+        </div>
+      </p>
+
+      <hr>
+
+      <h2>Reflection</h2>
+      <blockquote> <p> From this project I gained valuable first-hand experience designing a chatbot,
+         that I would not be able to get studying on my desk. 
+         
+       This project was abit difficult compared to the 1st project, as creating a unique feature through 
+       incorporating chatbot was proven to be exhausting.  
+
+       However by learning to construct POV of potential users we were able to come up with an idea. 
+       My feelings concerning VR meetings and the design process remain the same as the last project development.
+
+       Moreover, I learnt how to manage our time and coding workload as a group since in glitch we were able to code all at the same time. 
+       Coding at the same time may prove to be tedious and be more prone to error due to confliction however with us practicing paitence and organisation we were able to resolve this potential risk.
+        
+      </p></blockquote>
+     
+
+
+      <pre>             ,-.
+    ,     ,-.   ,-.
+   / \   (   )-(   )
+   \ |  ,.&gt;-(   )-&lt;
+    \|,' (   )-(   )
+     Y ___`-'   `-'
+     |/__/   `-'
+     |
+     |
+     |    -hrr-
+  ___|_____________
+</pre>
+
+     
+    </section>
+    <footer>
+      <p class="footerP">Undergraduate Student</p>
+      <p class="view" class="footerP"><a href="https://www.ust.hk/home">HKUST</a></p>
+      <p class="footerP"><small>Last Updated: October 6,2020 </small></p>
+      <p class="footerP"><strong>Contact:</strong> <a
+          href="mailto:ashrestha@connect.ust.hk">ashrestha@connect.ust.hk</a></p>
+    </footer>
+  </div>
+  <script src="javascripts/scale.fix.js"></script>
+</body>
+
+</html>

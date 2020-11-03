@@ -6,6 +6,80 @@ body {
   font-weight:400;
 }
 
+
+
+nav {
+  margin: 50px;
+}
+
+#ul_index {
+  overflow: auto;
+  list-style-type: none;
+}
+
+#ul_index li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+
+#ul_index li:last-child {
+  border-right: none;
+}
+
+#ul_index li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#ul_index li a:hover {
+  color: #666;
+}
+
+#ul_index li.active a {
+  font-weight: bold;
+  color: #333;
+}
+
+table {
+  width: 100%;
+}
+
+th.locationHeader {
+  width: 15%;
+}
+
+th.observationHeader{
+  width: 55%;
+}
+
+th.userHeader{
+  width:33%;
+}
+
+th.needsHeader{
+  width:33%;
+}
+
+th.insightsHeader{
+  width: 33%;
+}
+
+th.imageHeader { 
+width: 30%;
+
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
