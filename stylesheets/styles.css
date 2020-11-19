@@ -10,6 +10,7 @@ body {
 
 nav {
   margin: 50px;
+  width: 300px;
 }
 
 #ul_index {
@@ -23,6 +24,7 @@ nav {
   margin-right: 0px;
   border-right: 1px solid #aaa;
   padding: 0 20px;
+ 
 }
 
 #ul_index li:last-child {
